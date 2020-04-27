@@ -1,0 +1,71 @@
+/* <div> */
+
+div {
+    color: red;
+}
+
+/* <div class="div-numerato"> */
+
+.div-numerato {
+    color: blue;
+}
+
+/* <div id="biu"> */
+
+#biu {
+    color: rgba(0, 255, 0, 0.7);
+    animation: spin 60s linear infinite;
+}
+
+#lancetta {
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    background-color: rgb(0,0,0);
+    animation: spin 6s linear infinite;
+
+}
+
+@keyframes henlo {
+    0% {
+        color: rgb(0,0,0);
+    }
+    20% {
+        color: rgb(255,0,0);
+    }
+    40% {
+        color: rgb(0,255,0);
+    }
+    60% {
+        color: rgb(0,0,255);
+    }
+    80% {
+        color: rgb(255,255,255);
+    }
+    100% {
+        color: rgb(0,0,0);
+    }
+}
+
+
+@keyframes redgreen {
+    0% {
+        color: red;
+    }
+
+    100% {
+        color: green;
+    }
+    
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+    }
+}
